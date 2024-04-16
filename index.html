@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Gamers Arena | Let the game begin!</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+   <!-- partial:index.partial.html -->
+   <!-- about -->
+   <div class="about">
+      <a class="bg_links social portfolio" href="index.html" target="_self">
+         <span class="icon"></span>
+      </a>
+      <a class="bg_links social linkedin" href="https://www.linkedin.com/in/dev-patel-4a34aa278/" target="_blank">
+         <span class="icon"></span>
+      </a>
+      <a class="bg_links social dribbble" href="https://www.linkedin.com/in/emir-husain-79555624a/" target="_blank">
+         <span class="icon"></span>
+      </a>
+      <a class="bg_links logo"></a>
+   </div>
+   <!-- end about -->
+
+   <nav class="mainNav">
+      <div class="mainNav__logo">
+
+      </div>
+      <div class="mainNav__links">
+         <a href="index.html" class="mainNav__link">Home</a>
+         <a href="games.html" class="mainNav__link">Games</a>
+         <a href="team.html" class="mainNav__link">Team</a>
+         <!-- <a href="" class="mainNav__link">Contacts</a> -->
+      </div>
+      <div class="mainNav__icon">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <g data-name="Layer 2" fill="#9197AE">
+               <g data-name="menu-2">
+                  <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
+                  <circle cx="4" cy="12" r="1" />
+                  <rect x="7" y="11" width="14" height="2" rx=".94" ry=".94" />
+                  <rect x="3" y="16" width="18" height="2" rx=".94" ry=".94" />
+                  <rect x="3" y="6" width="18" height="2" rx=".94" ry=".94" />
+               </g>
+            </g>
+         </svg>
+      </div>
+   </nav>
+   <header class="mainHeading">
+      <div class="mainHeading__background"></div>
+      <div class="mainHeading__content">
+         <article class="mainHeading__text">
+            <p class="mainHeading__preTitle">Welcome to</p>
+            <h2 class="mainHeading__title">The Gamers Arena</h2>
+            <p class="mainHeading__description">
+               Set up your controllers for the war is going to begin.
+               Dive into the world of exciting games with us!
+            </p>
+            <button class="cta" onclick="window.location.href='games.html'">Explore</button>
+         </article>
+
+         <figure class="mainHeading__image">
+            <img src="IMAGES/header_img.jpg" alt="" />
+         </figure>
+      </div>
+      <video class="header-video" autoplay muted loop>
+         <source src="Videos/header_video.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </header>
+
+
+   <div class="mainBody">
+      <div class="glowing-line"></div>
+      <div class="bodyText" href="#" target="_blank">Our most popular</div>
+      <div class="upper">
+         <div class="w-full">
+         <div class="movie_card" id="bright">
+            <audio id="hoversound" src="AUDIO/hover.mp3" preload="auto"></audio>
+            <a href="games/SNAKE_GAME/snake_index.html" class="w-full inline">
+            <div class="info_section">
+               <div class="movie_header">
+                  <img class="locandina"
+                     src="https://tse4.mm.bing.net/th?id=OIP.WN4137CwHcGQY4J6TzKdhwHaDt&pid=Api&P=0&h=180" />
+                  <h1>Snake Game</h1>
+                  <h4>2023, Emir2099</h4>
+                  <span class="minutes">4.5</span>
+                  <p class="type">Action, Arcade</p>
+               </div>
+               <div class="movie_desc">
+                  <p class="text">
+                     Snake is a sub-genre of action video games where the player maneuvers the end of a growing line,
+                     often themed as a snake. The player must keep the snake from colliding with both other obstacles
+                     and itself, which gets harder as the snake lengthens
+                  </p>
+               </div>
+               <div class="movie_social">
+                  <ul>
+                     <li><i class="material-icons">share</i></li>
+                     <li><i class="material-icons"></i></li>
+                     <li><i class="material-icons">chat_bubble</i></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="blur_back bright_back"></div>
+         </a>
+         </div>
+   </div>
+
+   <div class="movie_card" id="tomb">
+      <audio id="hoversound" src="AUDIO/hover.mp3" preload="auto"></audio>
+            <a href="games/ZOMBIE_GAME/zombie_index.html">
+            <div class="info_section">
+               <div class="movie_header">
+                  <img class="locandina" src="https://wallpapercave.com/wp/wp3204990.jpg" />
+                  <h1>Zombie Game</h1>
+                  <h4>2024, Emir2099</h4>
+                  <span class="minutes">4.2</span>
+                  <p class="type">Action, Horror</p>
+               </div>
+               <div class="movie_desc">
+                  <p class="text">
+                     Dodge the path of the zombie to move ahead. Watch out otherwise your game will be over!
+                  </p>
+               </div>
+               <div class="movie_social">
+                  <ul>
+                     <li><i class="material-icons">share</i></li>
+                     <li><i class="material-icons"></i></li>
+                     <li><i class="material-icons">chat_bubble</i></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="blur_back tomb_back"></div>
+         </a>
+         </div>
+   </div>
+   
+      <div class="movie_card" id="ave">
+         <audio id="hoversound" src="AUDIO/hover.mp3" preload="auto"></audio>
+            <a href="games/TIC_TAC_TOE_GAME/ttt_index.html">
+            <div class="info_section">
+               <div class="movie_header">
+                  <img class="locandina" src="https://wallpapercave.com/wp/wp8984750.jpg" />
+                  <h1>Tic Tac Toe</h1>
+                  <h4>2024, Emir2099</h4>
+                  <span class="minutes">4.8</span>
+                  <p class="type">Puzzle</p>
+               </div>
+               <div class="movie_desc">
+                  <p class="text">
+                     Tic-tac-toe is played on a three-by-three grid by two players, who alternately place the marks X
+                     and O in one of the nine spaces in the grid.
+                  </p>
+               </div>
+               <div class="movie_social">
+                  <ul>
+                     <li><i class="material-icons">share</i></li>
+                     <li><i class="material-icons"></i></li>
+                     <li><i class="material-icons">chat_bubble</i></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="blur_back ave_back"></div>
+         </a>
+      </div>
+      <article id="wrap">
+         <article id="lightings">
+            <section id="one">
+               <section id="two">
+                  <section id="three">
+                     <section id="four">
+                        <section id="five">
+      
+                        </section>
+                     </section>
+                  </section>
+               </section>
+            </section>
+         </article>
+      </article>
+  
+   </div>
+   
+</body>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.js'></script>
+<script src="./script.js"></script>
+
+
+
+</html>

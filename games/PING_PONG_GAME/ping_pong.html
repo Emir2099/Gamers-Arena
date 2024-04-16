@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PING PONG | Gamers Arena</title>
+    <link rel="stylesheet" type="text/css" href="ping_pong.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
+</head>
+<body>
+   <div id="wrap">
+      <div id="startMenu">
+        <h1>Pong</h1>
+        <p>Move the arrow keys <span style="color:blue;">up</span> and <span style="color:blue;">down</span> to move the board</p>
+        <button id="startBtn">Start</button>
+      </div>
+      <div id="pauseMenu">
+        <h1>Pause</h1>
+        <button id="continueBtn">Continue</button>
+        <button id="restartBtn">Restart</button>
+        <button id="homeBtn">Home</button>
+      </div>
+      <div id="gameOverMenu">
+        <h1 id="gameMessage"></h1>
+        <button id="againBtn">Try again</button>
+      </div>
+      <div id="gameplay">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+      </div>
+    </div>
+    
+</body>
+<script src="ping_pong.js"></script>
+</html>

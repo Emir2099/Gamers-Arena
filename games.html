@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Gamers Arena | Let the game begin!</title>
+   <link rel="stylesheet" href="./stylegame.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+   <!-- partial:index.partial.html -->
+   <!-- about -->
+   <div class="about">
+    <a class="bg_links social portfolio" href="/index.html" target="_self">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social linkedin" href="https://www.linkedin.com/in/dev-patel-4a34aa278/" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social dribbble" href="https://www.linkedin.com/in/emir-husain-79555624a/" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links logo"></a>
+ </div>
+   <!-- end about -->
+
+   <nav class="mainNav">
+      <div class="mainNav__logo">
+
+      </div>
+      <div class="mainNav__links">
+         <a href="index.html" class="mainNav__link">Home</a>
+         <a href="games.html" class="mainNav__link">Games</a>
+         <a href="team.html" class="mainNav__link">Team</a>
+         <!-- <a href="" class="mainNav__link">Contacts</a> -->
+      </div>
+      <div class="mainNav__icon">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <g data-name="Layer 2" fill="#9197AE">
+               <g data-name="menu-2">
+                  <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
+                  <circle cx="4" cy="12" r="1" />
+                  <rect x="7" y="11" width="14" height="2" rx=".94" ry=".94" />
+                  <rect x="3" y="16" width="18" height="2" rx=".94" ry=".94" />
+                  <rect x="3" y="6" width="18" height="2" rx=".94" ry=".94" />
+               </g>
+            </g>
+         </svg>
+      </div>
+   </nav>
+   <header class="mainHeading">
+      <div class="mainHeading__background"></div>
+      <div class="mainHeading__content">
+         <article class="mainHeading__text">
+            <p class="mainHeading__preTitle">Welcome to</p>
+            <h2 class="mainHeading__title">The Gamers Arena</h2>
+            <p class="mainHeading__description">
+               Scroll through some amazing games,
+               Set new record for others to beat, GAME ON! 
+            </p>
+            <button style="border-radius: 0px;" class="cta" onclick="document.querySelector('.card-container').scrollIntoView({ behavior: 'smooth' });">Let's Play</button>
+         </article>
+
+         <figure class="mainHeading__image">
+            <img style="border-radius: 0%;" src="IMAGES/bg_web_img.jpg" alt="" />
+         </figure>
+      </div>
+      <video class="header-video" autoplay muted loop>
+         <source src="Videos/header_video.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </header>
+
+
+   <div class="mainBody">
+      <div class="glowing-line"></div>
+      <!-- <div class="bodyText" href="#" target="_blank">Let The Game Begin</div>
+      <div class="glowing-line"></div> -->
+      <div class="card-container">
+      <div class="gamecategory">
+         <p style="color:white">Action Games</p>
+      </div>
+      <div class="cards-row">
+      <div class="flip-card-container" style="--hue: 220">
+         <div class="flip-card">
+          <audio id="hoversound" src="AUDIO/hover.mp3" preload="auto"></audio>
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img style="background-size: cover;" src="https://tse4.mm.bing.net/th?id=OIP.WN4137CwHcGQY4J6TzKdhwHaDt&pid=Api&P=0&h=180" alt="Brohm Lake">
+               <figcaption>Snake game</figcaption>
+             </figure>
+       
+             <ul>
+               <li>Sub-genre of action video games</li>
+               <li>Eat the fruit to increase the score</li>
+               <li>Grow as you eat</li>
+               <li>Beware! don't end up eating yourself</li>
+               <!-- <li>Detail 5</li> -->
+             </ul>
+           </div>
+       
+           <div class="card-back">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpaperaccess.com/full/5119060.jpg" alt="Brohm Lake">
+             </figure>
+       
+           
+             <button onclick="window.location.href='games/SNAKE_GAME/snake_index.html'">Play</button>
+            
+       
+             <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+       <!-- /flip-card-container -->
+       
+       <!-- flip-card-container -->
+       <div class="flip-card-container" style="--hue: 170">
+         <div class="flip-card">
+       
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpapercave.com/wp/wp3204990.jpg" alt="Image 2">
+               <figcaption>Zombie game</figcaption>
+             </figure>
+       
+             <ul>
+               <li>Evade the chasing zombies!</li>
+               <li>They are coming after you</li>
+               <li>Survive as long as you can</li>
+               <li>Your surviving time defines your score</li>
+               <!-- <li>Detail 5</li> -->
+             </ul>
+           </div>
+       
+           <div class="card-back">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpaperaccess.com/full/5119060.jpg" alt="image-2">
+             </figure>
+       
+             <button onclick="window.location.href='games/ZOMBIE_GAME/zombie_index.html'">Play</button>
+       
+             <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+       <!-- /flip-card-container -->
+       
+       <!-- flip-card-container -->
+       <!-- <div class="flip-card-container" style="--hue: 350">
+         <div class="flip-card">
+       
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
+               <figcaption>GAME</figcaption>
+             </figure>
+       
+             <ul>
+               <li>Detail 1</li>
+               <li>Detail 2</li>
+               <li>Detail 3</li>
+               <li>Detail 4</li>
+               <li>Detail 5</li>
+             </ul>
+           </div>
+       
+           <div class="card-back"> -->
+             <!-- only if the image is necessary -->
+             <!-- <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
+             </figure>
+       
+             <button>Play</button> -->
+       
+             <!-- can add svg here and remove these eight spans -->
+             <!-- <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div> -->
+       <!-- /flip-card-container -->
+      </div>
+
+
+
+      <div class="gamecategory">
+         <p style="color:white">Other Games</p>
+      </div>
+      <div class="cards-row">
+      <div class="flip-card-container" style="--hue: 220">
+         <div class="flip-card">
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpapercave.com/wp/wp8984750.jpg" alt="Brohm Lake">
+               <figcaption>Tic Tac Toe</figcaption>
+             </figure>
+       
+             <ul>
+               <li>A pen and paper game on device</li>
+               <li>Two people, one showdown</li>
+               <li>Place the marks X and O</li>
+               <li>Strike three consecutives tiles to win</li>
+               <!-- <li>Detail 5</li> -->
+             </ul>
+           </div>
+       
+           <div class="card-back">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpaperaccess.com/full/5119060.jpg" alt="Brohm Lake">
+             </figure>
+       
+             <button onclick="window.location.href='games/TIC_TAC_TOE_GAME/ttt_index.html'">Play</button>
+       
+             <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+       <!-- /flip-card-container -->
+       
+       <!-- flip-card-container -->
+       <div class="flip-card-container" style="--hue: 170">
+         <div class="flip-card">
+       
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://orig00.deviantart.net/f2ed/f/2015/252/b/4/wallpaper___pong_by_romus91-d98z8pr.jpg" alt="Image 2">
+               <figcaption>Ping Pong</figcaption>
+             </figure>
+       
+             <ul>
+               <li>Get on an arcade game now</li>
+               <li>Move the board by up and down arrow keys</li>
+               <li>Play against the computer</li>
+               <li>Score as much as you can, free play!</li>
+               <!-- <li>Detail 5</li> -->
+             </ul>
+           </div>
+       
+           <div class="card-back">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpaperaccess.com/full/5119060.jpg" alt="image-2">
+             </figure>
+       
+             <button onclick="window.location.href='games/PING_PONG_GAME/ping_pong.html'">Play</button>
+       
+             <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+       <!-- /flip-card-container -->
+       
+       <!-- flip-card-container -->
+       <div class="flip-card-container" style="--hue: 350">
+         <div class="flip-card">
+       
+           <div class="card-front">
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpapercave.com/wp/wp6956919.jpg" alt="Brohm Lake">
+               <figcaption>Flappy Bird</figcaption>
+             </figure>
+       
+             <ul>
+               <li>A retro classic</li>
+               <li>Dodge the pipes</li>
+               <li>Fly far to get points</li>
+               <li>Break some records and move ahead</li>
+             </ul>
+           </div>
+       
+           <div class="card-back">
+             <!-- only if the image is necessary -->
+             <figure class="fig">
+               <div class="img-bg"></div>
+               <img src="https://wallpaperaccess.com/full/5119060.jpg" alt="Brohm Lake">
+             </figure>
+       
+             <button onclick="window.location.href='games/FLAPPY_BIRD_GAME/flappy_index.html'">Play</button>
+       
+             <!-- can add svg here and remove these eight spans -->
+             <div class="design-container">
+               <span class="design design--1"></span>
+               <span class="design design--2"></span>
+               <span class="design design--3"></span>
+               <span class="design design--4"></span>
+               <span class="design design--5"></span>
+               <span class="design design--6"></span>
+               <span class="design design--7"></span>
+               <span class="design design--8"></span>
+             </div>
+           </div>
+       
+         </div>
+       </div>
+       <!-- /flip-card-container -->
+      </div>
+      </div>
+      <article id="wrap">
+         <article id="lightings">
+            <section id="one">
+               <section id="two">
+                  <section id="three">
+                     <section id="four">
+                        <section id="five">
+      
+                        </section>
+                     </section>
+                  </section>
+               </section>
+            </section>
+         </article>
+      </article>
+  
+   </div>
+   
+</body>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.js'></script>
+<script src="./script.js"></script>
+
+
+
+</html>
